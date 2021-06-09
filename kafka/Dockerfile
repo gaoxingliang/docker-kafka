@@ -3,8 +3,8 @@
 FROM openjdk:8-jre-stretch
 
 ENV DEBIAN_FRONTEND noninteractive
-ENV SCALA_VERSION 2.11
-ENV KAFKA_VERSION 2.2.0
+ENV SCALA_VERSION 2.13
+ENV KAFKA_VERSION 2.8.0
 ENV KAFKA_HOME /opt/kafka_"$SCALA_VERSION"-"$KAFKA_VERSION"
 
 # Install Kafka, Zookeeper and other needed things
